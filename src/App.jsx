@@ -75,7 +75,7 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
-              <img src="./assets/faris1.png" className="w-10 rounded-md" />
+              <img src="./assets/abdullah-photo.png" className="w-10 rounded-md" />
               <q>Avoid or just undertake it</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
@@ -110,7 +110,7 @@ function App() {
               handle="abdullahshahib"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/faris.png"
+              avatarUrl="./assets/abdullah-photo.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
