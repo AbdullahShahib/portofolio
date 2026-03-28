@@ -182,11 +182,15 @@
 }
 
 .pc-avatar-content .avatar {
-  width: 100%;
+  width: auto;
+  height: 82%;
+  max-width: 92%;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%) scale(1);
-  bottom: 2px;
+  transform: translateX(-50%);
+  object-fit: contain;
+  object-position: center bottom;
+  bottom: 0;
   opacity: calc(1.75 - var(--pointer-from-center));
 }
 
@@ -360,6 +364,11 @@
     font-size: min(4svh, 2.5em);
   }
 
+  .pc-avatar-content .avatar {
+    height: 78%;
+    max-width: 94%;
+  }
+
   .pc-details p {
     font-size: 14px;
   }
@@ -406,6 +415,11 @@
 
   .pc-details h3 {
     font-size: min(3.5svh, 2em);
+  }
+
+  .pc-avatar-content .avatar {
+    height: 75%;
+    max-width: 95%;
   }
 
   .pc-details p {
