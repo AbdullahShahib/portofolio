@@ -183,14 +183,14 @@
 
 .pc-avatar-content .avatar {
   width: auto;
-  height: 82%;
-  max-width: 92%;
+  height: 90%;
+  max-width: 88%;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   object-fit: contain;
-  object-position: center bottom;
-  bottom: 0;
+  object-position: center;
   opacity: calc(1.75 - var(--pointer-from-center));
 }
 

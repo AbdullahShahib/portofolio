@@ -78,7 +78,7 @@ function App() {
               <img src="./assets/abdullah-photo.png?v=2" className="w-10 h-10 rounded-md object-cover object-center" />
               <q>Avoid or just undertake it</q>
             </div>
-            <h1 className="text-5xl font-bold mb-6">
+            <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
               <ShinyText text="Hi I'm Abdullah Shahib. M. H" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
