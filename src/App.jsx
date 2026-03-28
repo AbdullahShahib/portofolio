@@ -162,8 +162,12 @@ function App() {
             </div>
 
             {/* Kolom kanan */}
-            <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center ">
-              <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
+            <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center">
+              <img 
+                src="./assets/about-photo.png?v=1" 
+                alt="About me" 
+                className="w-full max-w-sm h-auto object-contain rounded-lg"
+              />
             </div>
           </div>
 
