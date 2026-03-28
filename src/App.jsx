@@ -139,7 +139,7 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
+                      7<span className="text-violet-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
@@ -148,12 +148,6 @@ function App() {
                       3<span className="text-violet-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
-                  </div>
-                  <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-violet-500">/4.00</span>
-                    </h1>
-                    <p>GPA</p>
                   </div>
                 </div>
 
