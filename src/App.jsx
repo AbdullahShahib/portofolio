@@ -79,7 +79,7 @@ function App() {
               <q>Avoid or just undertake it</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
-              <ShinyText text="Hi I'm Faris Edrik Prayoga" disabled={false} speed={3} className='custom-class' />
+              <ShinyText text="Hi I'm Abdullah Shahib. M. H" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
               text="A passionate application and web developer dedicated to crafting modern, high-performance digital experiences through innovative and user-friendly solutions."
@@ -105,9 +105,9 @@ function App() {
           </div>
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s">
             <ProfileCard
-              name="Faris Edrik P"
+              name="Abdullah Shahib. M. H"
               title="Web Developer"
-              handle="farisedrikp"
+              handle="abdullahshahib"
               status="Online"
               contactText="Contact Me"
               avatarUrl="./assets/faris.png"
