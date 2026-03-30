@@ -6,9 +6,9 @@ import { useGLTF, useTexture, Environment, Lightformer } from '@react-three/drei
 import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphericalJoint } from '@react-three/rapier';
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
-// replace with your own imports, see the usage snippet for details
-const cardGLB = "/portofolio/assets/card.glb";
-const lanyard = "/portofolio/assets/lanyard.png";
+const assetBase = `${import.meta.env.BASE_URL}assets/`;
+const cardGLB = `${assetBase}card.glb`;
+const lanyard = `${assetBase}lanyard.png`;
 
 import * as THREE from 'three';
 import './Lanyard.css';

@@ -16,6 +16,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 function App() {
+  const assetUrl = (fileName) => `${import.meta.env.BASE_URL}assets/${fileName}`;
   const aboutRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -74,7 +75,7 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
-              <img src="./assets/abdullah-photo.png?v=2" className="w-10 h-10 rounded-md object-cover object-center" />
+              <img src={assetUrl("abdullah-photo.png")} className="w-10 h-10 rounded-md object-cover object-center" />
               <q>Avoid or just undertake it</q>
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight">
@@ -89,7 +90,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="./assets/CV.pdf" 
+                href={assetUrl("CV.pdf")} 
                 download="Faris_Edrik_Prayoga_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
@@ -109,7 +110,7 @@ function App() {
               handle="abdullahshahib"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/abdullah-photo.png?v=2"
+              avatarUrl={assetUrl("abdullah-photo.png")}
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}

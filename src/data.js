@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+const HeroImage = `${import.meta.env.BASE_URL}assets/hero-img.webp`;
 
 const Image = {
   HeroImage,
